@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+      <!-- CSS Style Sheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/adbc038210.js" crossorigin="anonymous"></script>
+
+      <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+   
+      <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+    <section class="coloured" id="title-section">
+        <div class="container-fluid">
+            <div class="title-search">
+                <h1 class="title title-yellow">
+                    SyrphBase
+                </h1>
+                <form class="species-search" id="form" role="search"> <!-- doesn't work yet, needs back-end stuff -->
+                    <input class="search-box" type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
+                    <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item nav-border">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item nav-border">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item nav-border">
+                                <a class="nav-link" href="species.html">Species</a>
+                            </li>
+                            <li class="nav-item nav-border">
+                                <a class="nav-link" href="general.html">General</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section class="blank", id="contact-body">
+        <div class="container-fluid body-text">
+            <div class="row main-text">
+                <div>
+                    <h2>
+                        Contact Me
+                    </h2>
+                    <p>
+                        Hi, as the sole author of this website I am actually not a troglodytic basement dwelling developer. I am just a little insane - coding does that to you. Anyways, if you have any feedback on improvements <span class="line-crossed">please fuck-off and fix it yourself</span> please get in touch and let me know. <br><br>
+                        This is important for my PhD and the wider <span class="line-crossed">horse research community</span> <em>I'll stop horsing around now</em> hoverfly research community. As such, any and all feedback is really welcome to ensure this website optimally achieves its functional purpose. <br><br>
+                        If you are interested in contributing to the development side please also get in touch, I could use the help... I have started seeing code in my dreams.
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Email:
+                    </h3>
+                    <p>
+                        <i class="social-icon fa-solid fa-envelope brand-icon"></i>jcb260@exeter.ac.uk
+                    </p>
+                </div>
+                <div>
+                    <h3>
+                        Social media
+                    </h3>
+                    <p>twitter<i class="social-icon-contact fa-brands fa-twitter brand-icon"></i>: @bugswithbarnes</p>
+                    <p>facebook<i class="social-icon-contact fa-brands fa-facebook-f brand-icon"></i>: <em>No professional fb page for this website - not sure why the logo is in the footer</em>
+                    <p>instagram<i class="social-icon-contact fa-brands fa-instagram brand-icon"></i>: @bugswithbarnes <em>original I know - also it's a personal account so probably won't link it to here, will need a professional one to post pics of <span class="line-crossed">horses</span> hoverflies</em></p>
+                    <p>phone<i class="social-icon-contact fa-solid fa-phone"></i>: Most people give an office phone - I have a mobile phone. You can ask for it if you want. Ok it is 07716966215, I like to live dangerously obviosuly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="coloured" id="footer">
+        <div class="container-fluid footer-text">
+            <h6 class="soc-title">
+                Check social media for the latest updates
+            </h6>
+            <div class="soc-media">
+                <i class="social-icon fa-brands fa-twitter brand-icon"></i>
+                <i class="social-icon fa-brands fa-facebook-f brand-icon"></i>
+                <i class="social-icon fa-brands fa-instagram brand-icon"></i>
+                <i class="social-icon fa-solid fa-envelope brand-icon"></i>
+            </div>
+            <div class="links">
+                <a class="link" href="">Species</a>
+                <a class="link" href="">Darwin Tree of Life</a>
+                <a class="link" href="">NCBI</a>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

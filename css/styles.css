@@ -1,0 +1,241 @@
+/* Everything */
+
+body {
+    text-align: center;
+    min-height: 100vh; margin:0; 
+    display:flex; 
+    flex-direction:column; 
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+th {
+    background-color: #000;
+    color: rgb(227, 230, 143);
+    padding: 0.5rem 0;
+}
+
+tr:nth-child(even) {
+    background-color:rgb(209, 213, 223);
+}
+
+tr:hover {
+    background-color: rgb(176, 179, 188);
+}
+
+[data-href] {
+    cursor: pointer;
+}
+
+.coloured {
+    background-color: black;
+}
+
+.blank {
+    background-color: #fff;
+    flex:1; 
+}
+
+.title-yellow {
+    color: rgb(227, 230, 143);
+}
+
+.body-text {
+    text-align: left;
+    padding: 0 10%;
+}
+
+/* Title Section */
+
+.title{
+    padding: 1rem 0 0;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.title-search {
+    display: flex;
+    justify-content: center;
+    column-gap: 2rem;
+}
+
+.species-search {
+    padding: 1rem 0 0;
+    align-self: center;
+    display: flex;
+}
+
+.search-button {
+    border: 0;
+}
+
+.nav-link {
+    color:#fff;
+    font-size: 1.2rem;
+    margin: 0 8px;
+    padding: 0;
+}
+
+.nav-link:hover {
+    color: rgb(227, 230, 143);
+}
+
+.nav-border {
+    border-right: solid #fff;
+}
+
+.active-page {
+    color:rgb(241, 202, 84)
+}
+
+/* Hoverflies Section */
+
+.main-text {
+    padding-top: 1rem; 
+}
+
+/* About */
+
+.text-white {
+    color: #fff;
+}
+
+/* Diversity */
+
+.title-diversity {
+    padding: 1rem 0;
+}
+
+.diversity-image {
+    width: 480px;
+}
+
+/* footer */
+
+.footer-text {
+    color:aliceblue;
+    padding:2rem 0 2rem;
+}
+
+.soc-title {
+    padding: 1rem 0 0.5rem;
+}
+
+.social-icon {
+    padding: 0 0.5rem 1rem;
+}
+
+.link {
+    padding: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: rgb(227, 230, 143);
+}
+
+/* Species Cards */
+
+#species-pipizinae {
+    background-color: rgb(223, 216, 72);
+}
+
+#species-microdontinae {
+    background-color: rgb(82, 197, 235);
+}
+
+#species-eristalinae {
+    background-color: rgb(72, 189, 82);
+}
+
+#species-syrphinae {
+    background-color: rgb(231, 115, 69);
+}
+
+.species-family {
+    width: auto;
+    margin:1rem 2rem;
+    border-radius: 2%;
+}
+
+.species-card-container {
+    margin: 1rem 4rem;
+}
+
+.species-card-title {
+    text-align: left;
+    padding: 1rem 4.8rem;
+}
+
+.species-card {
+    padding-bottom: 1.5rem;
+}
+
+.species-img {
+    border-radius: 0%;
+}
+
+.card-body {
+    border-top: solid black 3px;
+}
+
+.border-dark {
+    border-width: 3px;
+}
+
+.species-footer-contents {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+/* Taxonomy */
+
+.line-crossed {
+    text-decoration: line-through;
+}
+
+/* Species Pages */
+
+.link-white-bg {
+    color: #000;
+    text-decoration: none;
+}
+
+.link-white-bg:hover {
+    color: rgb(72, 107, 223);
+}
+
+.summary-table {
+    border-collapse: separate;
+    padding: 1.5rem 0 1rem;
+    border-spacing: 0;
+}
+
+/* Contact */
+
+.social-icon-contact {
+    padding: 0 0.5rem;
+}
